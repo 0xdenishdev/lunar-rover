@@ -2,7 +2,6 @@
 
 int main() {
     LunarSurface surface;
-
     if ( ! surface.readBoardFile("board01.txt")) {
         printf("Error reading file.");
         exit(EXIT_FAILURE);
@@ -11,5 +10,5 @@ int main() {
     LunarRover rover(&surface);
     rover.drawGrid();
 
-    return 0;
+    return EXIT_SUCCESS;
 }
