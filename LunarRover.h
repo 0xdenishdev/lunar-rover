@@ -7,7 +7,7 @@
 class LunarRover {
 public:
     // Constructor - need a valid LunarSurface pointer
-    LunarRover(LunarSurface *inBoard);
+    explicit LunarRover(LunarSurface *inBoard);
     // Destructor - might not need to do anything here
     ~LunarRover();
 
