@@ -21,3 +21,35 @@ void LunarRover::drawGrid() {
         std::cout << std::endl;
     }
 }
+
+bool LunarRover::land(int row, int col) {
+    // TODO: not implemented yet
+}
+
+int LunarRover::move(int newrow, int newcol) {
+    // TODO: not implemented yet
+}
+
+void LunarRover::getPosition(int &oldrow, int &oldcol) {
+    // TODO: not implemented yet
+}
+
+void LunarRover::setPosition(int newrow, int newcol) {
+    // TODO: not implemented yet
+}
+
+void LunarRover::setDamage(int newdmg) {
+    damage = newdmg;
+}
+
+int LunarRover::getDamage() {
+    return damage;
+}
+
+void LunarRover::setFuel(int newfuel) {
+    fuel = newfuel;
+}
+
+int LunarRover::getFuel() {
+    return fuel;
+}
